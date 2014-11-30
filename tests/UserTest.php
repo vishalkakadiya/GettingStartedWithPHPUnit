@@ -2,8 +2,7 @@
 require_once "../vendor/autoload.php";
 require_once "../include/User.php";
 
-class UserTest extends PHPUnit_Framework_TestCase
-{
+class UserTest extends PHPUnit_Framework_TestCase {
     protected $user;
 
     protected function setUp() {
